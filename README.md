@@ -1,16 +1,18 @@
 # nightnight
 nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep better supporting their health and well being.
 
+The project seeks to highlight issues around sleep debt, how technology contributes to these issues, and engages technology creators with the idea of Universal Responsibility.
 
 #### Sleep Debt
 Sleep depervation is one of the 
 
 
-#### Total Universal Responsibility
+#### Universal Responsibility
 
-When we create products, we often don't consider the all implications of our designs. 
+This project seeks to highlight issues of Universal Responsibility. When we create products, we often don't consider the all implications of our designs. 
 
-We believe creators have a responisbility to their user that includes the users overall health and well being. Is the beer manufacturer 
+We believe creators have a responisbility to their user that includes the users overall health and well being. Is the beer manufacturer.
+
 
 
 #### Masamichi Souzou
@@ -29,7 +31,7 @@ Learn more at → http://neeleyworldwide.com
 
 #### J. Paul Neeley
 
-J. Paul Neeley is an American Designer and Researcher based in London. He has a background in Service Design, Speculative Design, Design Research, and Strategy. J. Paul enjoys exploring the social, cultural, economic, and ethical implications of emerging technologies, designing speculative futures that help organizations reframe their understanding of the current state, and find new opportunities moving forward. Recent projects have focused on happiness, healthcare, AI, self quantification, future mobility, synthetic biology, and issues of complexity and computational irreducibility in design and business. 
+J. Paul Neeley is an American Designer and Researcher based in London. He has a background in Service Design, Speculative Design, Design Research, and Strategy. J. Paul enjoys exploring the social, cultural, economic, and ethical implications of emerging technologies, designing speculative futures to help organizations reframe their understanding of the current state, and find new opportunities moving forward. Recent projects have focused on happiness, healthcare, AI, self quantification, future mobility, synthetic biology, and issues of complexity and computational irreducibility in design and business. 
 
 Other projects: Creative AI @ http://yossarian.co, Happiness Optimization @ http://mmsz.co, and New Kind of Design @ http://nkd.is
 
