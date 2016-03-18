@@ -9,9 +9,9 @@ For more information contact → 1@mmsz.co
 Sleep depervation is one of the 
 
 
-#### Universal Responsibility
+#### NKD
 
-This project seeks to highlight issues of Universal Responsibility. When we create products, we often don't consider the all implications of our designs. 
+New Kind of Design is an approach that seeks to encorporate This project seeks to highlight issues of Universal Responsibility. When we create products, we often don't consider the all implications of our designs. 
 
 We believe creators have a responisbility to their user that includes the users overall health and well being. Is the beer manufacturer.
 
