@@ -1,7 +1,9 @@
-# nightnight
-nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep better supporting their health and well being.
+# night night
+night night is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep to better support their health and well being.
 
 The project seeks to highlight issues around sleep debt, how technology contributes to these issues, and engages technology creators with the idea of Universal Responsibility.
+
+For more information contact → 1@mmsz.co
 
 #### Sleep Debt
 Sleep depervation is one of the 
@@ -13,7 +15,7 @@ This project seeks to highlight issues of Universal Responsibility. When we crea
 
 We believe creators have a responisbility to their user that includes the users overall health and well being. Is the beer manufacturer.
 
-
+#
 
 #### Masamichi Souzou
 
