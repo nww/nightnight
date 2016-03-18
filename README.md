@@ -42,7 +42,7 @@ Learn more at → http://jpaulneeley.com
 
 #### Håkon Eide
 
-Håkon Eide is a Norwegian Computer Scientist based in London. Håkon has a wide ranging development skill set and interests with expertise in Go & React frameworks. As the co-founder & CTO of Swipe.to Håkon developed cutting 
+Håkon Eide is a Norwegian Computer Scientist based in London. Håkon has a wide ranging development skill set and interests, with expertise in Go & React frameworks. As the co-founder & CTO of Swipe.to Håkon developed cutting edge back end IP to enable real-time engagement on a new kind of presentation framework. 
 
 Learn more at → http://
 
