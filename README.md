@@ -15,7 +15,7 @@ We believe creators have a responisbility to their user that includes the users 
 
 #### Masamichi Souzou
 
-mmsz is a New Kind of Company, working to solve for human happiness through the consideration of everything. Globally, current business & design practicies tend to optimize for profit and fail to consider the larger cummulative impact of these activities over time, which inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe there are solutions. Masamichi Souzou (正道想像) is Japanese for "Correct Path, Imagined/Created." At mmsz want to know what the world would look like if we optimize everything, not for profit or growth, but for happiness. We are building that world.
+mmsz is a New Kind of Company, working to solve for human happiness through the consideration of everything. Globally, current business & design practicies tend to optimize for profit and fail to consider the larger cummulative impact of these activities over time, which can inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe there are solutions. Masamichi Souzou (正道想像) is Japanese for "Correct Path, Imagined/Created." At mmsz want to know what the world would look like if we optimize everything, not for profit or growth, but for happiness. We are building that world.
 
 Learn more at → http://mmsz.co
 
