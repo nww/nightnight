@@ -3,7 +3,7 @@ nightnight is a simple program that puts your website to sleep, encouraging user
 
 Sleep depervation is one of the 
 
-### Masamichi Souzou
+#### Masamichi Souzou
 
 mmsz is a New Kind of Company, working to solve for human happiness through the consideration of everything.
 
@@ -11,10 +11,10 @@ Current business & design practicies optimize for profit and fail to consider th
 
 We believe there are solutions. Masamichi Souzou (正道想像) is Japanese for "Correct Path, Imagined/Created." At mmsz want to know what the world would look like if we optimize everything, not for profit or growth, but for happiness. We are building that world.
 
-### Neeley Worldwide
+#### Neeley Worldwide
 
-### J. Paul Neeley
+#### J. Paul Neeley
 
-### Håkon Eide
+#### Håkon Eide
 
 
