@@ -1,7 +1,7 @@
 # night night
 night night is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep to better support their health and well being.
 
-The project seeks to highlight issues around sleep debt, how technology contributes to these issues, and engages technology creators with the idea of Universal Responsibility.
+The project seeks to highlight issues around sleep debt, how technology contributes to these issues, and engage technology creators with New Kind of Design and the concept of Universal Responsibility.
 
 For more information contact → 1@mmsz.co
 
@@ -11,7 +11,7 @@ Sleep depervation is one of the
 
 #### NKD
 
-New Kind of Design is an approach that seeks to encorporate This project seeks to highlight issues of Universal Responsibility. When we create products, we often don't consider the all implications of our designs. 
+New Kind of Design is an approach that seeks to encorporate a number. This project seeks to highlight issues of Universal Responsibility. When we create products, we often don't consider the all implications of our designs. 
 
 We believe creators have a responisbility to their user that includes the users overall health and well being. Is the beer manufacturer.
 
