@@ -9,7 +9,11 @@ For more information contact → 1@mmsz.co
 
 # Install
 
-There are two ways to install nightnight on your website. The first option is to simply drop in the line of code below on your website, at the very end of the page just above the `</body>` tag. And you're all set!
+There are two ways to install nightnight on your website. 
+
+#### Quick Install
+
+The first option is to simply drop in the line of code below on your website, at the very end of the page just above the `</body>` tag. And you're all set!
 
 ```
 <script async=true src="https://wwww.neeleyworldwide.com/0100/0400/nightnight.js"></script>
@@ -23,6 +27,7 @@ If you'd like you can adjust the times for wake and sleep. We suggest 6am `0600`
 <script async=true src="https://wwww.neeleyworldwide.com/0630/2300/nightnight.js"></script>
 ```
 
+#### Full Hosted Install
 
 The second option is to host all of the pages on your site.
 ```
@@ -51,7 +56,7 @@ New Kind of Design is an approach that seeks to encorporate a number. This proje
 
 We believe creators have a responisbility to their user that includes the users overall health and well being. Is the beer manufacturer.
 
-#
+# Credits
 
 #### Masamichi Souzou
 
