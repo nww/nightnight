@@ -9,13 +9,15 @@ For more information contact → 1@mmsz.co
 
 # Install
 
-There are two ways to install nightnight on your website.
+There are two ways to install nightnight on your website. The first option is to simply drop in the line of code below on your website, at the very end of the page just above the `</body>` tag. And you're all set!
 
 ```
 <script async=true src="https://wwww.neeleyworldwide.com/0100/0400/nightnight.js"></script>
 ```
 
-We suggest 6am '0600' and 10pm '2200' as default wake and sleep time, but you can adjust these simply by changing the times in the script above. For example if we want to wake up at 6:30am and 11pm then the script is adjusted to the following. 
+And you're all set! Great work! You are taking a big step to truly care for your users and taking responsibility for your designs.
+
+If you'd like you can adjust the times for wake and sleep. We suggest 6am `0600` and 10pm `2200` as default wake and sleep time, but you can adjust these simply by changing the times in the script above. For example if we want to wake up at 6:30am and 11pm then the script is adjusted to the following. 
 
 ```
 <script async=true src="https://wwww.neeleyworldwide.com/0630/2300/nightnight.js"></script>
@@ -78,6 +80,6 @@ Learn more at → http://jpaulneeley.com
 
 Håkon Eide is a Norwegian Computer Scientist based in London. Håkon has a wide ranging development skill set and interests, with expertise in Go & React frameworks. As the co-founder & CTO of Swipe.to Håkon developed cutting edge back end IP to enable real-time engagement on a new kind of presentation framework. 
 
-Learn more at → http://
+Learn more at → https://twitter.com/_hakon_
 
 
