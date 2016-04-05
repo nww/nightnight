@@ -11,19 +11,19 @@ For more information contact → 1@mmsz.co
 
 There are two ways to install nightnight on your website.
 
-<code>
+```
 <script async=true src="https://wwww.neeleyworldwide.com/0100/0400/nightnight.js"></script>
-</code>
+```
 
 We suggest 6am '0600' and 10pm '2200' as default wake and sleep time, but you can adjust these simply by changing the times in the script above. For example if we want to wake up at 6:30am and 11pm then the script is adjusted to the following. 
 
-<code>
+```
 <script async=true src="https://wwww.neeleyworldwide.com/0630/2300/nightnight.js"></script>
-</code>
+```
 
 
 The second option is to host all of the pages on your site.
-<code>
+```
 <script>
 var d = new Date();
 if (d.getHours() >= 6 && d.getHours() <= 22) {
@@ -34,7 +34,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
   $(".open").hide();
 }
 </script>
-</code>
+```
 
 
 # About
