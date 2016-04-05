@@ -25,7 +25,8 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 #### Full Install
 
-The second option is to host all of the pages on your site.
+The second option is to host all of the tool on your own site. Start by dropping in the script below on the html page just above the `</body>` tag. 
+
 ```
 <script>
 var d = new Date();
@@ -35,10 +36,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
   $(".nightnight").show();
 }
 </script>
-```
-Next drop the following html onto the page you would like to have nightnight appear.
 
-```
 <div class="nightnight">Its late…
   <br> Nothing we can offer you is more important than your sleep.
   <br> Sleep well, sweet dreams, and we will catch you in the AM.
@@ -52,17 +50,8 @@ Next drop the following html onto the page you would like to have nightnight app
     <a href="http://neeleyworldwide.com"><img src="http://neeleyworldwide.com/neeley_worldwide_white.png" alt="Neeley Worldwide" height="30px">
   </div>
 </div>
-```
 
-Next drop the following css into your existing css file.
-
-```
-/* 
-/////////////////////////////
-night night css
-/////////////////////////////
-*/
-
+<style>
 .nightnight {
   background: #000;
   font-family: Arial, sans-serif;
@@ -116,6 +105,8 @@ submit {
   margin-top: 40px;
   font-size:8px;
 }
+</script>
+
 ```
 
 
