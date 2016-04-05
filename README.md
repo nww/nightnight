@@ -105,7 +105,7 @@ submit {
   margin-top: 40px;
   font-size:8px;
 }
-</script>
+</style>
 
 ```
 
