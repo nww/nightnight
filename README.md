@@ -42,6 +42,88 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 }
 </script>
 ```
+Next drop the following html onto the page you would like to have nightnight appear.
+
+```
+<div class="open"></div>
+<div class="nightnight">Its late…
+  <br> Nothing we can offer you is more important than your sleep.
+  <br> Sleep well, sweet dreams, and we will catch you in the AM.
+  <div class="timing">This site will wake up at 6:00am</div>
+  <div class="skip">
+    <a href="">Nah, I’ll sleep later, I really need to use this site right now →</a>
+  </div>
+  <div class="credits">
+   <a href="https://github.com/nww/night-night"><img src="http://neeleyworldwide.com/night_night_white.png" alt="night night" height="27px"></a>&nbsp; &nbsp;from&nbsp; &nbsp;
+    <a href="http://mmsz.co"><img src="http://neeleyworldwide.com/mmsz_white.png" alt="mmsz" height="27px"></a> &nbsp; &nbsp;by &nbsp; &nbsp;
+    <a href="http://neeleyworldwide.com"><img src="http://neeleyworldwide.com/neeley_worldwide_white.png" alt="Neeley Worldwide" height="30px">
+  </div>
+</div>
+```
+
+Next drop the following css into your existing css file.
+
+```
+/* 
+/////////////////////////////
+night night css
+/////////////////////////////
+*/
+
+.nightnight {
+  background: #000;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  padding: 10%;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+input,
+button,
+submit {
+  border: none;
+  background: none;
+  font-style: italic;
+}
+
+.nightnight a:link {
+  color: #555;
+}
+
+.nightnight a:visited {
+  color: #555;
+}
+
+.nightnight a:hover {
+  color: #FFF;
+}
+
+.timing {
+  font-size: 15px;
+  font-weight: 900;
+  margin-top: 20px;
+}
+
+.skip {
+  font-style: italic;
+  font-size: 10px;
+  margin-top: 40px;
+}
+
+.credits {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin-top: 40px;
+  font-size:8px;
+}
+```
 
 
 # About
