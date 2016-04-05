@@ -13,13 +13,13 @@ There are two ways to install nightnight on your website.
 
 #### Quick Install
 
-The first option is to simply drop in the line of code below on your website, at the very end of the page just above the `</body>` tag. And you're all set!
+The first option is to simply drop in the line of code below on your website, at the very end of the page just above the `</body>` tag.
 
 ```
 <script async=true src="https://wwww.neeleyworldwide.com/0600/2200/nightnight.js"></script>
 ```
 
-And you're all set! Great work! You are taking a big step to truly care for your users and taking responsibility for your designs.
+And you're all set! Great work! You are taking a big step to care for your users and taking universal responsibility for your design.
 
 
 
@@ -30,18 +30,15 @@ The second option is to host all of the pages on your site.
 <script>
 var d = new Date();
 if (d.getHours() >= 6 && d.getHours() <= 22) {
-  $(".open").show();
   $(".nightnight").hide();
 } else {
   $(".nightnight").show();
-  $(".open").hide();
 }
 </script>
 ```
 Next drop the following html onto the page you would like to have nightnight appear.
 
 ```
-<div class="open"></div>
 <div class="nightnight">Its late…
   <br> Nothing we can offer you is more important than your sleep.
   <br> Sleep well, sweet dreams, and we will catch you in the AM.
@@ -124,7 +121,7 @@ submit {
 
 ####Adjusting the time. 
 
-If you'd like you can adjust the times for wake and sleep for yoru site. We suggest 6am `0600` and 10pm `2200` as default wake and sleep time, but you can change these times in the script. For example if we want to wake up at 6:30am and 11pm then the script is adjusted to the following. 
+If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 6am `0600` and 10pm `2200` as default wake and sleep time, but you can change these times in the script. For example if we want to wake up at 6:30am and 11pm then the script is adjusted to the following. 
 
 ```
 <script async=true src="https://wwww.neeleyworldwide.com/0630/2300/nightnight.js"></script>
