@@ -1,4 +1,4 @@
-# night night
+# nightnight
 nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep better supporting their health and well being.
 
 The project seeks to highlight issues of sleep debt, how technology contributes to these issues, and to engage technology creators with New Kind of Design and the concept of Universal Responsibility.
