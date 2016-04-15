@@ -16,7 +16,7 @@ There are two ways to install nightnight on your website.
 The first option is to simply drop in the line of code below on your website at the very end of the page just above the `</body>` tag, and we'll do the rest.
 
 ```
-<script async src="https://wwww.neeleyworldwide.com/0600/2200/nightnight.js"></script>
+<script async src="https://nightnight.みんな/0600/2200/nightnight.js"></script>
 ```
 
 And you're all set! Great work! You are taking a big step to care for your users and taking universal responsibility for your design.
