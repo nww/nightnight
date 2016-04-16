@@ -8,9 +8,9 @@ The project seeks to highlight the public issues of sleep debt, how technology c
 
 nightnight was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). 
 
-Copyright (c) 2016 Masamichi Souzou and distrubuted under the The MIT License (MIT)
-
 For more information or press inquiries contact → 1@mmsz.co
+
+<sub>Copyright (c) 2016 Masamichi Souzou and distrubuted under the The MIT License (MIT)</sub>
 
 # Install
 
