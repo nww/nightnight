@@ -4,7 +4,7 @@
 
 nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to head to bed, better supporting their health and well being.
 
-The project seeks to highlight the public issues of sleep debt, how technology contributes to these issues, and to engage technology creators with New Kind of Design and the concept of Universal Responsibility.
+The project seeks to highlight the public issues of sleep debt, how technology contributes to these issues, and to engage technology creators with New Kind of Design and the concept of Universal Responsibility. 
 
 nightnight was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com).
 
@@ -16,7 +16,7 @@ There are two ways to install nightnight on your website.
 
 #### Quick Install
 
-The first option is to simply drop in the line of code below on your website at the very end of the page just above the `</body>` tag, and we'll do the rest.
+The first option is to simply drop in the single line of code below onto your website at the very end of the page just above the `</body>` tag, and we'll do the rest.
 
 
 
@@ -24,13 +24,13 @@ The first option is to simply drop in the line of code below on your website at 
 <script async src="https://www.nightnight.xn--q9jyb4c//0600/2200/nightnight.js"></script>
 ```
 
-And you're all set! Great work! You are taking a big step to care for your users and taking universal responsibility for your design.
+And you're all set! Great work! You are taking a big step to care for your users and take universal responsibility for your design.
 
 
 
 #### Full Install
 
-The second option is to host all of the tool on your own site. Start by dropping in the script below on the html page just above the `</body>` tag. 
+The second option is to host all of the night night tool on your own site. You can do this by dropping in the script below on the html page of your site just above the `</body>` tag. 
 
 ```
 <script>
@@ -127,7 +127,7 @@ If you'd like you can adjust the times of the quick install for wake and sleep f
 # About
 
 #### Sleep Debt
-Sleep deprivation is one of the major health issues facing modern society. 
+Sleep deprivation is one of the major health issues facing modern society.
 
 > Sleep deficiency is a common public health problem in the United States. People in all age groups report not getting enough sleep.
 
@@ -150,7 +150,7 @@ Sleep deprivation is one of the major health issues facing modern society.
 
 Globally, current business & design practicies tend to optimize for profit or human centerenedness and fail to consider the larger cummulative impact of these activities over time, which can inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe new apparches are urgently needed. New Kind of Design is a outlook and approach that seeks to encorporate a number of techniques and methods into the design process that work to mitigate the catastrophic cummulative negative impacts of current design and business approaches. 
 
-As creators we rarely consider the ALL of the implications of our designs, and this limited scope can significantly negativley impact the larger system. We believe creators have a universal responisbility to the entire system and to their individual users, including the users overall health and well being. This expanded purview leads to new and exciting opportunities for designers to support human and system needs through technology. Specifically, the night night project seeks to highlight opportunities reguarding Universal Responsibility as it relates to sleep deprivation.
+For example, creators rarely consider the ALL of the implications of their designs, and this limited scope can significantly negatively impact the larger system. We believe creators have a universal responisbility to the entire system and to their individual users, including the users overall health and well being. This expanded purview leads to new and exciting opportunities for designers to support human and system needs through technology. 
 
 → http://nkd.is
 
