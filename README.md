@@ -1,6 +1,6 @@
-# nightnight
+<img src="http://neeleyworldwide.com/night_night_everyone.png" width="400">
 
-nightnight.みんな (みんな means everyone in Japanese)
+(みんな is Japanese for everyone)
 
 nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep, better supporting their health and well being.
 
@@ -50,7 +50,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
     <a href="">Nah, I’ll sleep later, I really need to use this site right now →</a>
   </div>
   <div class="credits">
-   <a href="https://github.com/nww/night-night"><img src="http://neeleyworldwide.com/night_night_white.png" alt="night night" height="27px"></a>&nbsp; &nbsp;from&nbsp; &nbsp;
+   <a href="https://github.com/nww/night-night"><img src="http://neeleyworldwide.com/night_night_everyone_white.png" alt="night night" height="27px"></a>&nbsp; &nbsp;from&nbsp; &nbsp;
     <a href="http://mmsz.co"><img src="http://neeleyworldwide.com/mmsz_white.png" alt="mmsz" height="27px"></a> &nbsp; &nbsp;by &nbsp; &nbsp;
     <a href="http://neeleyworldwide.com"><img src="http://neeleyworldwide.com/neeley_worldwide_white.png" alt="Neeley Worldwide" height="30px">
   </div>
