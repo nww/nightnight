@@ -1,4 +1,7 @@
 # nightnight
+
+nightnight.みんな (みんな means everyone in Japanese)
+
 nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to sleep, better supporting their health and well being.
 
 The project seeks to highlight the public issues of sleep debt, how technology contributes to these issues, and to engage technology creators with New Kind of Design and the concept of Universal Responsibility.
@@ -15,8 +18,10 @@ There are two ways to install nightnight on your website.
 
 The first option is to simply drop in the line of code below on your website at the very end of the page just above the `</body>` tag, and we'll do the rest.
 
+
+
 ```
-<script async src="https://www.nightnight.みんな/0600/2200/nightnight.js"></script>
+<script async src="https://www.nightnight.xn--q9jyb4c//0600/2200/nightnight.js"></script>
 ```
 
 And you're all set! Great work! You are taking a big step to care for your users and taking universal responsibility for your design.
