@@ -6,7 +6,7 @@ nightnight is a simple program that allows you to put your website to sleep, enc
 
 The project seeks to highlight the public issues of sleep debt, how technology contributes to these issues, and to engage technology creators with New Kind of Design and the concept of Universal Responsibility. 
 
-nightnight was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com).
+nightnight was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). 
 
 For more information or press inquiries contact → 1@mmsz.co
 
