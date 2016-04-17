@@ -8,7 +8,7 @@ nightnight was created by [Masamichi Souzou](http://mmsz.co) and built by the te
 
 For more information or press inquiries contact us at → 1@mmsz.co
 
-<sub>Copyright (c) 2016 Masamichi Souzou and is distrubuted under the terms of the MIT License.</sub>
+<sub>Copyright (c) 2016 Masamichi Souzou and distrubuted under the terms of the MIT License.</sub>
 
 # Install
 
