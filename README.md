@@ -126,13 +126,9 @@ Sleep deprivation is one of the major health issues facing modern society.
 
 > Sleep deficiency is a common public health problem in the United States. People in all age groups report not getting enough sleep.
 
-> As part of a health survey for the Centers for Disease Control and Prevention, about 7–19 percent of adults in the United States reported not getting enough rest or sleep every day.  
+> As part of a health survey for the Centers for Disease Control and Prevention, about 7–19 percent of adults in the United States reported not getting enough rest or sleep every day. Nearly 40 percent of adults report falling asleep during the day without meaning to at least once a month.  Also, an estimated 50 to 70 million Americans have chronic (ongoing) sleep disorders.
 
-> Nearly 40 percent of adults report falling asleep during the day without meaning to at least once a month.  Also, an estimated 50 to 70 million Americans have chronic (ongoing) sleep disorders.
-
-> Sleep deficiency is linked to many chronic health problems, including heart disease, kidney disease, high blood pressure, diabetes, stroke, obesity, and depression.
-
-> Sleep deficiency also is associated with an increased risk of injury in adults, teens, and children. For example, driver sleepiness (not related to alcohol) is responsible for serious car crash injuries and death. In the elderly, sleep deficiency might be linked to an increased risk of falls and broken bones.
+> Sleep deficiency is linked to many chronic health problems, including heart disease, kidney disease, high blood pressure, diabetes, stroke, obesity, and depression. Sleep deficiency also is associated with an increased risk of injury in adults, teens, and children. For example, driver sleepiness (not related to alcohol) is responsible for serious car crash injuries and death. In the elderly, sleep deficiency might be linked to an increased risk of falls and broken bones.
 
 > In addition, sleep deficiency has played a role in human errors linked to tragic accidents, such as nuclear reactor meltdowns, grounding of large ships, and aviation accidents.
 
