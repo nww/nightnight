@@ -151,19 +151,15 @@ For example, creators rarely consider the ALL of the implications of their desig
 
 # Credits
 
-#### Masamichi Souzou
+#### Masamichi Souzou  
 
 mmsz is a New Kind of Company, working to solve for human happiness through the consideration of everything. Masamichi Souzou (正道想像) is Japanese for "Correct Path, Imagined/Created." At mmsz want to know what the world would look like if we optimize everything, not for profit or growth, but for happiness. We are building that world.
 
 → http://mmsz.co
 
-
 #### Neeley Worldwide
 
 Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, and workshops, lectures, and design training. 
-
-→ http://neeleyworldwide.com
-
 
 #### J. Paul Neeley
 
@@ -172,7 +168,6 @@ J. Paul Neeley is an American Designer and Researcher based in London. With a ba
 Other projects: Creative AI @ http://yossarian.co, Happiness Optimization @ http://mmsz.co, and New Kind of Design @ http://nkd.is
 
 → http://jpaulneeley.com
-
 
 #### Håkon Eide
 
