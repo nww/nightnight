@@ -1,16 +1,14 @@
 <img src="http://neeleyworldwide.com/night_night_everyone.png" width="400">
 
-(みんな is Japanese for "Everyone")
-
-nightnight is a simple program that allows you to put your website to sleep, encouraging your users to go to head to bed, better supporting their health and well being.
+nightnight everyone (みんな is Japanese for "everyone") is a simple program that allows you to put your website to sleep, encouraging your users to go to head to bed, better supporting their health and well being.
 
 The project seeks to highlight the public issues of sleep debt, how technology contributes to these issues, and to engage technology creators with [New Kind of Design](http://nkd.is) and the concept of Universal Responsibility. 
 
 nightnight was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). 
 
-For more information or press inquiries contact → 1@mmsz.co
+For more information or press inquiries contact us at → 1@mmsz.co
 
-<sub>Copyright (c) 2016 Masamichi Souzou and distrubuted under the The MIT License (MIT)</sub>
+<sub>Copyright (c) 2016 Masamichi Souzou and is distrubuted under the terms of the MIT License.</sub>
 
 # Install
 
