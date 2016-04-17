@@ -22,12 +22,6 @@ The first option is to simply drop in the single line of code below onto your we
 <script async src="https://www.nightnight.xn--q9jyb4c//0600/2200/nightnight.js"></script>
 ```
 
-If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 6am `0600` and 10pm `2200` as default wake and sleep time, but you can change these times in the script. For example if you want to wake up at 6:30am `0630` and 11pm `2300` then the script is adjusted to the following. 
-
-```
-<script async src="https://www.nightnight.xn--q9jyb4c//0630/2300/nightnight.js"></script>
-```
-
 And you're all set! Great work! You are taking a big step to care for your users and take universal responsibility for your design.
 
 
@@ -116,6 +110,13 @@ submit {
 }
 </style>
 
+```
+#### Time Adjust
+
+If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 6am `0600` and 10pm `2200` as default wake and sleep time, but you can change these times in the script. For example if you want to wake up at 6:30am `0630` and 11pm `2300` then the script is adjusted to the following. 
+
+```
+<script async src="https://www.nightnight.xn--q9jyb4c//0630/2300/nightnight.js"></script>
 ```
 
 # About
