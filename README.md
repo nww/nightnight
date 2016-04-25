@@ -29,6 +29,8 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 The second option is to host all of the night night tool on your own site. You can do this by dropping in the script below on the html page of your site just above the `</body>` tag. 
 
+#### Javascrpt
+
 ```
 <script>
 var d = new Date();
@@ -38,6 +40,12 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
   $(".nightnight").show();
 }
 </script>
+
+```
+
+#### HTML
+
+```
 
 <div class="nightnight">Its late…
   <br> Nothing we can offer you is more important than your sleep.
@@ -52,6 +60,12 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
     <a href="http://neeleyworldwide.com"><img src="http://neeleyworldwide.com/neeley_worldwide_white.png" alt="Neeley Worldwide" height="35px">
   </div>
 </div>
+
+```
+
+#### CSS
+
+```
 
 <style>
 .nightnight {
