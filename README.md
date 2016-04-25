@@ -6,7 +6,7 @@ The project was created by [Masamichi Souzou](http://mmsz.co) and built by the t
 
 For more information contact → 1@mmsz.co
 
-<sub>Copyright (c) 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
+<sub>Copyright © 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
 
 
 # Install
