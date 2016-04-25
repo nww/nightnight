@@ -25,7 +25,7 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 
 
-#### Full Install
+#### Self Host
 
 The second option is to host all of the night night tool on your own site. You can do this by dropping in the javascript, html, and css below on your page, either on the html page of your site just above the `</body>` tag. 
 
