@@ -6,7 +6,7 @@ The project was created by [Masamichi Souzou](http://mmsz.co) and built by the t
 
 For more information contact → 1@mmsz.co
 
-<sub>Copyright © 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
+<sub>Copyright (c) 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
 
 
 # Install
@@ -46,7 +46,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 #### HTML
 
 ```
-/*! nightnight.みんな v1.0 | MIT License | git.io/normalize */
+/*! nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
 <div class="nightnight">Its late…
   <br> Nothing we can offer you is more important than your sleep.
   <br> Sleep well, sweet dreams, and we will catch you in the AM.
