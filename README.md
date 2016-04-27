@@ -10,6 +10,10 @@ For more information contact → 1@mmsz.co
 
 # Demo
 
+Your site works normally until the bedtime, and then goes to sleep.
+
+<img src="http://neeleyworldwide.com/night_night_Screenshot_awake.png" >
+
 <img src="http://neeleyworldwide.com/night_night_Screenshot.png" >
 
 # Install
