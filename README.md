@@ -10,7 +10,7 @@ For more information contact → 1@mmsz.co
 
 # Demo
 
-<img src="http://neeleyworldwide.com/night_night_Screenshot.png" width="400">
+<img src="http://neeleyworldwide.com/night_night_Screenshot.png" >
 
 # Install
 
