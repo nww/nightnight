@@ -34,7 +34,7 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 The second option is to host all of the night night tool on your own site. You can do this by dropping in the javascript, html, and css below on your page, either on the html page of your site just above the `</body>` tag. 
 
-#### Javascrpt
+##### Javascrpt
 
 ```
 <script>
@@ -48,7 +48,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 
 ```
 
-#### HTML
+##### HTML
 
 ```
 /*! nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
@@ -68,7 +68,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 
 ```
 
-#### CSS
+##### CSS
 
 ```
 
