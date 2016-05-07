@@ -41,6 +41,7 @@ The second option is to host all of the night night tool on your own site. You c
 ##### Javascrpt
 
 ```
+// nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N
 <script>
 var d = new Date();
 if (d.getHours() >= 6 && d.getHours() <= 22) {
@@ -55,7 +56,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 ##### HTML
 
 ```
-/*! nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
+<!-- nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N -->
 <div class="nightnight">Its late…
   <br> Nothing we can offer you is more important than your sleep.
   <br> Sleep well, sweet dreams, and we will catch you in the AM.
@@ -75,7 +76,7 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 ##### CSS
 
 ```
-
+/* nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
 <style>
 .nightnight {
   background: #000;
