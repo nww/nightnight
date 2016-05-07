@@ -14,7 +14,7 @@ For interviews, press kits and all things editorial, please reach out  → press
 
 # Demo
 
-Your site works normally until the bedtime, and then goes to sleep.
+Your site works normally until the bedtime, and then goes to sleep. Users can click through to the site if needed in the night, and the site wakes up again in the morning.
 
 <img src="http://neeleyworldwide.com/night_night_Screenshot.png" >
 
