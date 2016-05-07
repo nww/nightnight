@@ -4,6 +4,8 @@ nightnight (みんな is Japanese for "everyone") is a simple program that allow
 
 The project was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). nightnight seeks to highlight the devastating public health implications of sleep debt, how technology contributes to these issues, and to engage technology creators with [New Kind of Design](http://nkd.is) and the concept of Universal Responsibility. We believe that technology creators must accept universal responsibility for the impacts of their design. 
 
+##### [Sign up for updates] (http://eepurl.com/bZ3Gyr)
+
 For more information contact → 1@mmsz.co
 
 <sub>Copyright (c) 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
