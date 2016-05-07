@@ -24,7 +24,7 @@ There are two ways to install nightnight on your website.
 
 #### Quick Install
 
-The first option is to simply drop in the single line of code below onto your website at the very end of the page just above the `</body>` tag, and we'll do the rest.
+The first option is to simply drop in the single line of code below onto your website at the very end of the html page just above the `</body>` tag, and we'll do the rest.
 
 ```
 <script async src="https://www.nightnight.xn--q9jyb4c/code/2200/0600/nightnight.js"></script>
