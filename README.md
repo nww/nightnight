@@ -158,9 +158,9 @@ Sleep deprivation is one of the major health issues facing modern society.
 
 #### NKD
 
-Globally, current business & design practicies tend to optimize for profit or human centerenedness and fail to consider the larger cummulative impact of these activities over time, which can inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe new apparches are urgently needed. New Kind of Design is a outlook and approach that seeks to encorporate a number of techniques and methods into the design process that work to mitigate the catastrophic cummulative negative impacts of current design and business approaches. 
+Current business & design practicies tend to optimize for profit and fail to consider the larger cummulative impact of these activities over time, which can inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe new apparches are urgently needed. New Kind of Design is an approach that seeks to encorporate a number of methods into the design process that work to mitigate the catastrophic cummulative negative impacts of optimization of parts. 
 
-For example, creators rarely consider the ALL of the implications of their designs, and this limited scope can significantly negatively impact the larger system. We believe creators have a universal responisbility to the entire system and to their individual users, including the users overall health and well being. This expanded purview leads to new and exciting opportunities for designers to support human and system needs through technology. 
+For example, creators rarely consider the ALL of the implications of their designs, and this limited scope can significantly negatively impact the larger system. We believe creators have a universal responisbility to the entire system and to their individual users, which includes the users overall health and well being. This expanded purview leads to new and exciting opportunities for designers to support human and system needs in new ways. 
 
 → http://nkd.is
 
@@ -175,7 +175,7 @@ mmsz is a New Kind of Company, working to solve for human happiness through the 
 
 #### Neeley Worldwide
 
-Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, and workshops, lectures, and design training. 
+Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, workshops, lectures, and design training. 
 
 #### J. Paul Neeley
 
