@@ -177,6 +177,8 @@ mmsz is a New Kind of Company, working to solve for human happiness through the 
 
 Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, workshops, lectures, and design training. 
 
+→ http://neeleyworldwide.com
+
 #### J. Paul Neeley
 
 J. Paul Neeley is an American Designer and Researcher based in London. With a background in Service Design, Speculative Design, Design Research, and Strategy, he enjoys exploring the social, cultural, economic, and ethical implications of emerging technologies. J. Paul designs speculative futures to help organizations reframe their understanding of the current state, and find new opportunities moving forward. Recent projects have focused on happiness, healthcare, AI, self quantification, future mobility, synthetic biology, and issues of complexity and computational irreducibility in design and business. 
