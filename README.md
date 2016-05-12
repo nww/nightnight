@@ -2,15 +2,21 @@
 
 nightnight (みんな is Japanese for "everyone") is a simple program that allows you to put your website to sleep, encouraging your users to go to head to bed, better supporting their health and well being.
 
-The project was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). nightnight seeks to highlight the devastating public health implications of sleep debt, how technology contributes to these issues, and to engage technology creators with [New Kind of Design](http://nkd.is) and the concept of Universal Responsibility. We believe that if technology creators accept universal responsibility for the impacts of their design. 
+The project was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). nightnight seeks to highlight the devastating public health implications of sleep debt, how technology contributes to these issues, and to engage technology creators with [New Kind of Design](http://nkd.is) and the concept of Universal Responsibility. We believe that technology creators must accept universal responsibility for the impacts of their design. 
 
-For more information contact → 1@mmsz.co
+#### [Sign up for updates] (http://eepurl.com/bZ3Gyr)
+
+For more information contact → hello@mmsz.co
+
+For interviews, press kits and all things editorial, please reach out  → press@mmsz.co
 
 <sub>Copyright (c) 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
 
 # Demo
 
-<img src="http://neeleyworldwide.com/night_night_Screenshot.png" width="400">
+Your site works normally until the bedtime, and then goes to sleep. Users can click through to the site if needed in the night, and the site wakes up again in the morning.
+
+<img src="http://neeleyworldwide.com/night_night_Screenshot.png" >
 
 # Install
 
@@ -18,10 +24,10 @@ There are two ways to install nightnight on your website.
 
 #### Quick Install
 
-The first option is to simply drop in the single line of code below onto your website at the very end of the page just above the `</body>` tag, and we'll do the rest.
+The first option is to simply drop in the single line of code below onto your website at the very end of the html page just above the `</body>` tag, and we'll do the rest.
 
 ```
-<script async src="https://www.nightnight.xn--q9jyb4c/code/0600/2200/nightnight.js"></script>
+<script async src="https://www.nightnight.xn--q9jyb4c/code/2200/0600/nightnight.js"></script>
 ```
 
 And you're all set! Great work! You are taking a big step to care for your users and take universal responsibility for your design.
@@ -32,9 +38,10 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 The second option is to host all of the night night tool on your own site. You can do this by dropping in the javascript, html, and css below on your page, either on the html page of your site just above the `</body>` tag. 
 
-#### Javascrpt
+##### Javascrpt
 
 ```
+// nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N
 <script>
 var d = new Date();
 if (d.getHours() >= 6 && d.getHours() <= 22) {
@@ -46,10 +53,10 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 
 ```
 
-#### HTML
+##### HTML
 
 ```
-/*! nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
+<!-- nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N -->
 <div class="nightnight">Its late…
   <br> Nothing we can offer you is more important than your sleep.
   <br> Sleep well, sweet dreams, and we will catch you in the AM.
@@ -66,10 +73,10 @@ if (d.getHours() >= 6 && d.getHours() <= 22) {
 
 ```
 
-#### CSS
+##### CSS
 
 ```
-
+/* nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
 <style>
 .nightnight {
   background: #000;
@@ -129,10 +136,10 @@ submit {
 ```
 #### Time Adjust
 
-If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 6am `0600` and 10pm `2200` as default wake and sleep time, but you can change these times in the script. For example if you want to wake up at 6:30am `0630` and 11pm `2300` then the script is adjusted to the following. 
+If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 10pm `2200` for bedtime and 6am `0600` and as wake time default, but you can change these times in the script. For example if you want to sleep at 11pm `2300` and wake up at 6:30am `0630` then the script is adjusted to the following. 
 
 ```
-<script async src="https://www.nightnight.xn--q9jyb4c//0630/2300/nightnight.js"></script>
+<script async src="https://www.nightnight.xn--q9jyb4c/code/2300/0630/nightnight.js"></script>
 ```
 
 # About
@@ -151,9 +158,9 @@ Sleep deprivation is one of the major health issues facing modern society.
 
 #### NKD
 
-Globally, current business & design practicies tend to optimize for profit or human centerenedness and fail to consider the larger cummulative impact of these activities over time, which can inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe new apparches are urgently needed. New Kind of Design is a outlook and approach that seeks to encorporate a number of techniques and methods into the design process that work to mitigate the catastrophic cummulative negative impacts of current design and business approaches. 
+Current business & design practicies tend to optimize for profit and fail to consider the larger cummulative impact of these activities over time, which can inveitably lead to catastrophic collapse of systems, like the obesity epedemic, global finacial instability, and climate change. We believe new apparches are urgently needed. New Kind of Design is an approach that seeks to encorporate a number of methods into the design process that work to mitigate the catastrophic cummulative negative impacts of optimization of parts. 
 
-For example, creators rarely consider the ALL of the implications of their designs, and this limited scope can significantly negatively impact the larger system. We believe creators have a universal responisbility to the entire system and to their individual users, including the users overall health and well being. This expanded purview leads to new and exciting opportunities for designers to support human and system needs through technology. 
+For example, creators rarely consider the ALL of the implications of their designs, and this limited scope can significantly negatively impact the larger system. We believe creators have a universal responisbility to the entire system and to their individual users, which includes the users overall health and well being. This expanded purview leads to new and exciting opportunities for designers to support human and system needs in new ways. 
 
 → http://nkd.is
 
@@ -168,7 +175,9 @@ mmsz is a New Kind of Company, working to solve for human happiness through the 
 
 #### Neeley Worldwide
 
-Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, and workshops, lectures, and design training. 
+Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, workshops, lectures, and design training. 
+
+→ http://neeleyworldwide.com
 
 #### J. Paul Neeley
 
