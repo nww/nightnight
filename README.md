@@ -36,104 +36,17 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 #### Self Host
 
-The second option is to host all of the night night tool on your own site. You can do this by dropping in the javascript, html, and css below on your page, either on the html page of your site just above the `</body>` tag. 
+The second option is to host all of the night night tool on your own site. You can do this by dropping in the javascript, html, and css on your own servers. 
 
-##### Javascrpt
-
-```
-// nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N
-<script>
-var d = new Date();
-if (d.getHours() >= 6 && d.getHours() <= 22) {
-  $(".nightnight").hide();
-} else {
-  $(".nightnight").show();
-}
-</script>
+Check out the latest code at... 
 
 ```
 
-##### HTML
-
-```
-<!-- nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N -->
-<div class="nightnight">Its late…
-  <br> Nothing we can offer you is more important than your sleep.
-  <br> Sleep well, sweet dreams, and we will catch you in the AM.
-  <div class="timing">This site will wake up at 6:00am</div>
-  <div class="skip">
-    <a href="">Nah, I’ll sleep later, I really need to use this site right now →</a>
-  </div>
-  <div class="credits">
-   <a href="https://github.com/nww/night-night"><img src="http://neeleyworldwide.com/night_night_everyone_white.png" alt="night night" height="32px"></a>&nbsp; &nbsp;from&nbsp; &nbsp;
-    <a href="http://mmsz.co"><img src="http://neeleyworldwide.com/mmsz_white.png" alt="mmsz" height="32px"></a> &nbsp; &nbsp;by &nbsp; &nbsp;
-    <a href="http://neeleyworldwide.com"><img src="http://neeleyworldwide.com/neeley_worldwide_white.png" alt="Neeley Worldwide" height="35px">
-  </div>
-</div>
+https://www.nightnight.xn--q9jyb4c/code/2200/0600/nightnight.js
 
 ```
 
-##### CSS
 
-```
-/* nightnight.みんな v1.0 | MIT License | https://git.io/vwz9N */
-<style>
-.nightnight {
-  background: #000;
-  font-family: Arial, sans-serif;
-  color: #fff;
-  font-size: 12px;
-  padding: 10%;
-  position: fixed;
-  margin: 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-input,
-button,
-submit {
-  border: none;
-  background: none;
-  font-style: italic;
-}
-
-.nightnight a:link {
-  color: #555;
-}
-
-.nightnight a:visited {
-  color: #555;
-}
-
-.nightnight a:hover {
-  color: #FFF;
-}
-
-.timing {
-  font-size: 15px;
-  font-weight: 900;
-  margin-top: 20px;
-}
-
-.skip {
-  font-style: italic;
-  font-size: 10px;
-  margin-top: 40px;
-}
-
-.credits {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  margin-top: 40px;
-  font-size:9px;
-}
-</style>
-
-```
 #### Time Adjust
 
 If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 10pm `2200` for bedtime and 6am `0600` and as wake time default, but you can change these times in the script. For example if you want to sleep at 11pm `2300` and wake up at 6:30am `0630` then the script is adjusted to the following. 
