@@ -36,9 +36,7 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 #### Self Host
 
-The second option is to host all of the night night tool on your own site. You can do this by dropping in the javascript, html, and css on your own servers. 
-
-Check out the latest code at... 
+The second option is to host all of the night night tool on your own site. You can do this by hosting the javascript on your own servers. 
 
 ```
 
