@@ -1,6 +1,6 @@
 <img src="http://neeleyworldwide.com/night_night_everyone.png" width="400">
 
-night night . みんな (みんな is Japanese for "everyone") is a simple program that allows you to put your website to sleep, encouraging your users to go to head to bed, better supporting their health and well being.
+[nightnight.みんな](http://nightnight.みんな) (みんな is Japanese for "everyone") is a simple program that allows you to put your website to sleep, encouraging your users to go to head to bed, better supporting their health and well being.
 
 The project was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). night night seeks to highlight the devastating public health implications of sleep debt, how technology contributes to these issues, and to engage technology creators with [New Kind of Design](http://nkd.is) and the concept of Universal Responsibility. We believe that technology creators must accept universal responsibility for the impacts of their design. 
 
