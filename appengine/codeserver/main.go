@@ -39,7 +39,13 @@ func codeHandler(w http.ResponseWriter, r *http.Request) {
 	bh, bm := extractHoursMinutes(begin)
 	eh, em := extractHoursMinutes(end)
 
-	w.Header().Set("Content-Type", "application/javascript")
+	header := w.Header()
+	header.Set("Content-Type", "application/javascript; charset=utf-8")
+	header.Set("X-Robots-Tag", "noindex")
+
+	header.Set("Cache-Control", "max-age=3600")
+	header.Add("Cache-Control", "must-revalidate")
+
 	codeTmpl.Execute(w, struct {
 		BeginHours, BeginMinutes, EndHours, EndMinutes int
 	}{
