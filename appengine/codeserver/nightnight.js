@@ -50,9 +50,9 @@ window.nightnightHide = function() {
 
 		// Inject DIV
 		var wrapper = document.createElement('div');
-		wrapper.innerHTML = '<div class="nightnight">It&rsquo;s late&hellip; <div> Nothing we can offer you is more important than your sleep.</div> <div> Sleep well, sweet dreams, and we will catch you in the morning.</div> <div class="nightnight-timing">This site will wake up at ' + 
+		wrapper.innerHTML = '<div class="nightnight"><div>It&rsquo;s late&hellip;</div><div> Nothing we can offer you is more important than your sleep.</div> <div> Sleep well, sweet dreams, and we will catch you in the morning.</div> <div class="nightnight-timing">This site will wake up at ' + 
 			time + 
-			'</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">Nah, I&rsquo;ll sleep later, I really need to use this site right now &rightarrow;</a> </div> <div class="nightnight-credits"> <a href="https://github.com/nww/nightnight"><img src="https://www.nightnight.xn--q9jyb4c/static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
+			'</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">I&rsquo;ll sleep later, I really need to use this site right now &rightarrow;</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="https://code.nightnight.xn--q9jyb4c/static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
 		document.body.appendChild(wrapper);
 	}
 })();

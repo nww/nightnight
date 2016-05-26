@@ -9,12 +9,12 @@ import (
 	"text/template"
 )
 
-var codeURLPattern = regexp.MustCompile(`^/code/(\d{4,})/(\d{4,})/nightnight.js$`)
+var codeURLPattern = regexp.MustCompile(`^/js/(\d{4,})/(\d{4,})/nightnight.js$`)
 
 var codeTmpl *template.Template
 
 func init() {
-	http.HandleFunc("/code/", codeHandler)
+	http.HandleFunc("/js/", codeHandler)
 
 	b, err := ioutil.ReadFile("nightnight.js")
 	if err != nil {
@@ -65,7 +65,7 @@ func extractHoursMinutes(s string) (int, int) {
 
 var cspDirectives = strings.Join([]string{
 	"default-src 'none'",
-	"script-src https://www.nightnight.xn--q9jyb4c/code/",
+	"script-src https://code.nightnight.xn--q9jyb4c/js/",
 }, "; ")
 
 func testHandler(w http.ResponseWriter, r *http.Request) {
@@ -78,9 +78,8 @@ func testHandler(w http.ResponseWriter, r *http.Request) {
 			<title></title>
 		</head>
 		<body>
-			These are the page contents. Go <a href="https://night-night.appspot.com/test">here</a> to test.
-
-			<script async src="https://www.nightnight.xn--q9jyb4c/code/0900/0600/nightnight.js"></script>
+			<p>These are the page contents. Go <a href="https://code-dot-night-night.appspot.com/test">here</a> to test.</p>
+			<script async src="https://code.nightnight.xn--q9jyb4c/js/0900/0600/nightnight.js"></script>
 		</body>
 		</html>`,
 	))

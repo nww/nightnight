@@ -8,8 +8,8 @@ func TestExtractBeginEnd(t *testing.T) {
 	tests := []struct {
 		path, begin, end string
 	}{
-		{"/code/1234/4321/nightnight.js", "1234", "4321"},
-		{"/code/1234/4321/nightnight.js/1234/4321", "", ""},
+		{"/js/1234/4321/nightnight.js", "1234", "4321"},
+		{"/js/1234/4321/nightnight.js/1234/4321", "", ""},
 	}
 
 	for i, tt := range tests {

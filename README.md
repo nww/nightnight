@@ -26,7 +26,7 @@ There are two ways to install nightnight on your website.
 The first option is to simply drop in the single line of code below onto your website at the very end of the html page just above the `</body>` tag, and we'll do the rest.
 
 ```
-<script async src="https://www.nightnight.xn--q9jyb4c/code/2200/0600/nightnight.js"></script>
+<script async src="https://code.nightnight.xn--q9jyb4c/js/2200/0600/nightnight.js"></script>
 ```
 
 And you're all set! Great work! You are taking a big step to care for your users and take universal responsibility for your design.
@@ -39,7 +39,7 @@ The second option is to host all of the night night tool on your own site. You c
 
 ```
 
-https://www.nightnight.xn--q9jyb4c/code/2200/0600/nightnight.js
+https://code.nightnight.xn--q9jyb4c/js/2200/0600/nightnight.js
 
 ```
 
@@ -49,7 +49,7 @@ https://www.nightnight.xn--q9jyb4c/code/2200/0600/nightnight.js
 If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 10pm `2200` for bedtime and 6am `0600` and as wake time default, but you can change these times in the script. For example if you want to sleep at 11pm `2300` and wake up at 6:30am `0630` then the script is adjusted to the following. 
 
 ```
-<script async src="https://www.nightnight.xn--q9jyb4c/code/2300/0630/nightnight.js"></script>
+<script async src="https://code.nightnight.xn--q9jyb4c/js/2300/0630/nightnight.js"></script>
 ```
 
 # About
