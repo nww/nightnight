@@ -99,8 +99,8 @@ Other projects: Creative AI @ http://yossarian.co, Happiness Optimization @ http
 
 #### Håkon Eide
 
-Håkon Eide is a Norwegian Computer Scientist based in London. Håkon has a wide ranging development skill set and interests, with expertise in Go & React frameworks. As the co-founder & CTO of Swipe.to Håkon developed cutting edge back end IP to enable real-time engagement on a new kind of presentation framework. 
+Håkon Eide is a Norwegian Computer Scientist based in London. Håkon has a wide ranging development skill set and interests, with expertise in Go & React.js. As co-founder & CTO of Swipe.to Håkon developed cutting edge back end IP to enable real-time engagement on a new kind of presentation framework. 
 
-→ https://twitter.com/_hakon_
+→ https://www.hkeide.com
 
 
