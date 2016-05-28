@@ -11,9 +11,9 @@ For more information contact → hello@mmsz.co
 
 <sub>Copyright (c) 2016 Masamichi Souzou. Distributed under the terms of the MIT License.</sub>
 
-# Product Roadmap
+# Product Roadmap 
 
-1. Multiple language support (Kudos to Vladislav Arbatov for the Russian translation)
+1. Multiple language support (Kudos to Vladislav Arbatov for the [Russian translation](https://github.com/arbdigital/nightnight_ru))
 2. Fade colors through sunset, then to black
 
 # Demo
