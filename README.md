@@ -15,6 +15,7 @@ For more information contact → hello@mmsz.co
 
 1. Multiple language support (Kudos to Vladislav Arbatov for the [Russian translation](https://github.com/arbdigital/nightnight_ru))
 2. Fade colors through sunset, then to black
+3. Explore options for individual sleep preferences and shift workers
 
 # Demo
 
