@@ -19,10 +19,9 @@ For more information contact → hello@mmsz.co
 
 # Product Roadmap 
 
-1. Multiple language support (Kudos to Vladislav Arbatov for the [Russian translation](https://github.com/arbdigital/nightnight_ru))
+1. Create NPM Package
 2. Fade colors through sunset, then to black
 3. Explore options for individual sleep preferences and shift workers
-4. Mobile support (Completed)
 
 # Demo
 
