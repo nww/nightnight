@@ -1,3 +1,6 @@
+# Updated By Maksim to improve save a cookie when the user need to view the website. It will not show up after reload.
+
+
 <img src="https://neeleyworldwide.com/static/img/night_night_logo.png" width="400">
 
 [nightnight.みんな](http://nightnight.みんな) (みんな is Japanese for "everyone") is a simple program that allows you to put your website to sleep, encouraging your users to go to bed, better supporting their health, wellbeing, and happiness.
