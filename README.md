@@ -1,4 +1,5 @@
-# Updated By Maksim to improve save a cookie when the user need to view the website. It will not show up after reload.
+# Updated to save a cookie when the user need to view the website.
+This will prevent the nightnight showing up after every reload and not annoy the customer.
 
 
 <img src="https://neeleyworldwide.com/static/img/night_night_logo.png" width="400">
