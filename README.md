@@ -4,7 +4,7 @@
 
 The project was created by [Masamichi Souzou](http://mmsz.co) and built by the team at [Neeley Worldwide](http://neeleyworldwide.com). night night seeks to highlight the devastating public health implications of sleep debt, how technology contributes to these issues, and to engage technology creators with [New Kind of Design](http://nkd.is) and the concept of Universal Responsibility. We believe that technology creators must accept universal responsibility for the impacts of their design. 
 
-#### [Sign up for updates] (http://eepurl.com/bZ3Gyr)
+#### [Sign up for updates](http://eepurl.com/bZ3Gyr)
 
 For more information contact → hello@mmsz.co
 
