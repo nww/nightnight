@@ -20,7 +20,7 @@ For more information contact → hello@mmsz.co
 
 # Demo
 
-Your site works normally until the bedtime, and then goes to sleep. Users can click through to the site if needed in the night, and the site wakes up again in the morning.
+Your site works normally until the bedtime, and then goes to sleep. Users can click through to the site if needed in the night, and the site wakes up again in the morning. [Here is a link to the live demo.](https://www.nightnight.xn--q9jyb4c/demo)
 
 <img src="https://miro.medium.com/max/1400/1*z3h287Nke9pKrCmodO0MJw.png" >
 
