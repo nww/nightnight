@@ -88,26 +88,22 @@ For example, creators rarely consider the ALL of the implications of their desig
 
 mmsz is a New Kind of Company, working to solve for human happiness through the consideration of everything. Masamichi Souzou (正道想像) is Japanese for "Correct Path, Imagined/Created." At mmsz want to know what the world would look like if we optimize everything, not for profit or growth, but for happiness. We are building that world.
 
-→ http://mmsz.co
+→ https://www.masamichisouzou.com
 
 #### Neeley Worldwide
 
 Neeley Worldwide is a consultancy with expertise in Service Design, Speculative Design, Design Research, and Strategy. Neeley Worldwide provides organizaitons support through project research, design, and delivery, also offering prototyping services, workshops, lectures, and design training. 
 
-→ http://neeleyworldwide.com
+→ https://neeleyworldwide.com
 
 #### J. Paul Neeley
 
 J. Paul Neeley is an American Designer and Researcher based in London. With a background in Service Design, Speculative Design, Design Research, and Strategy, he enjoys exploring the social, cultural, economic, and ethical implications of emerging technologies. J. Paul designs speculative futures to help organizations reframe their understanding of the current state, and find new opportunities moving forward. Recent projects have focused on happiness, healthcare, AI, self quantification, future mobility, synthetic biology, and issues of complexity and computational irreducibility in design and business. 
-
-Other projects: Creative AI @ http://yossarian.co, Happiness Optimization @ http://mmsz.co, and New Kind of Design @ http://nkd.is
 
 → http://jpaulneeley.com
 
 #### Håkon Eide
 
 Håkon Eide is a Norwegian Computer Scientist based in London. Håkon has a wide ranging development skill set and interests, with expertise in Go & React.js. As co-founder & CTO of Swipe.to Håkon developed cutting edge back end IP to enable real-time engagement on a new kind of presentation framework. 
-
-→ https://www.hkeide.com
 
 
