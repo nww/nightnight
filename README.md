@@ -22,7 +22,7 @@ For more information contact → hello@mmsz.co
 
 Your site works normally until the bedtime, and then goes to sleep. Users can click through to the site if needed in the night, and the site wakes up again in the morning.
 
-<img src="https://neeleyworldwide.com/night_night_Screenshot.png" >
+<img src="https://miro.medium.com/max/1400/1*z3h287Nke9pKrCmodO0MJw.png" >
 
 # Install
 
