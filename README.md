@@ -17,6 +17,8 @@ For more information contact → hello@mmsz.co
 2. Fade colors through sunset, then to black
 3. Explore options for individual sleep preferences and shift workers
 4. Mobile support (Completed)
+5. Persist bypass across pages using localStorage (Completed)
+6. Migrate from App Engine to static GitHub Pages hosting (Completed)
 
 # Demo
 
@@ -33,7 +35,7 @@ There are two ways to install nightnight on your website.
 The first option is to simply drop in the single line of code below onto your website at the very end of the html page just above the `</body>` tag, and we'll do the rest.
 
 ```
-<script async src="https://code.nightnight.xn--q9jyb4c/js/2200/0600/nightnight.js"></script>
+<script async src="https://code.nightnight.xn--q9jyb4c/nn.js?sleep=2200&wake=0600"></script>
 ```
 
 And you're all set! Great work! You are taking a big step to care for your users and take universal responsibility for your design.
@@ -42,21 +44,15 @@ And you're all set! Great work! You are taking a big step to care for your users
 
 #### Self Host
 
-The second option is to host all of the night night tool on your own site. You can do this by hosting the javascript on your own servers. 
-
-```
-
-https://code.nightnight.xn--q9jyb4c/js/2200/0600/nightnight.js
-
-```
+The second option is to host all of the night night tool on your own site. You can do this by hosting the javascript on your own servers. Download `nn.js` and serve it from your own domain.
 
 
 #### Time Adjust
 
-If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 10pm `2200` for bedtime and 6am `0600` and as wake time default, but you can change these times in the script. For example if you want to sleep at 11pm `2300` and wake up at 6:30am `0630` then the script is adjusted to the following. 
+If you'd like you can adjust the times of the quick install for wake and sleep for your site. We suggest 10pm `2200` for bedtime and 6am `0600` as wake time default, but you can change these times in the script. For example if you want to sleep at 11pm `2300` and wake up at 6:30am `0630` then the script is adjusted to the following.
 
 ```
-<script async src="https://code.nightnight.xn--q9jyb4c/js/2300/0630/nightnight.js"></script>
+<script async src="https://code.nightnight.xn--q9jyb4c/nn.js?sleep=2300&wake=0630"></script>
 ```
 
 # About

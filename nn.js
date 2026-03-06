@@ -1,29 +1,37 @@
 ;
 
-window.nightnightHide = function() {
-	var banners = document.getElementsByClassName('nightnight');
-
-	for (var i = 0; i < banners.length; i++) {
-		banners[i].style.display = 'none';
-	}
-
-	try {
-		var eh = {{ .EndHours }}, em = {{ .EndMinutes }};
-		var now = new Date();
-		var wake = new Date(now);
-		wake.setHours(eh, em, 0, 0);
-		if (wake <= now) {
-			wake.setDate(wake.getDate() + 1);
-		}
-		localStorage.setItem('nightnight_bypass', wake.getTime());
-	} catch(e) {}
-};
-
 (function(){
+	var scriptSrc = document.currentScript.src;
+	var params = new URL(scriptSrc).searchParams;
+	var sleep = params.get('sleep') || '2200';
+	var wake = params.get('wake') || '0600';
+	var bh = parseInt(sleep.substring(0,2), 10) % 24;
+	var bm = parseInt(sleep.substring(2), 10) % 60;
+	var eh = parseInt(wake.substring(0,2), 10) % 24;
+	var em = parseInt(wake.substring(2), 10) % 60;
+
+	var scriptOrigin = scriptSrc.substring(0, scriptSrc.lastIndexOf('/') + 1);
+
+	window.nightnightHide = function() {
+		var banners = document.getElementsByClassName('nightnight');
+
+		for (var i = 0; i < banners.length; i++) {
+			banners[i].style.display = 'none';
+		}
+
+		try {
+			var now = new Date();
+			var wakeTime = new Date(now);
+			wakeTime.setHours(eh, em, 0, 0);
+			if (wakeTime <= now) {
+				wakeTime.setDate(wakeTime.getDate() + 1);
+			}
+			localStorage.setItem('nightnight_bypass', wakeTime.getTime());
+		} catch(ignore) {}
+	};
+
 	var d = new Date();
 	var m = d.getHours() * 60 + d.getMinutes();
-	var bh = {{ .BeginHours }}, bm = {{ .BeginMinutes }};
-	var eh = {{ .EndHours }}, em = {{ .EndMinutes }};
 
 	var use12HourClock = true;
 
@@ -42,7 +50,7 @@ window.nightnightHide = function() {
 			return;
 		}
 		localStorage.removeItem('nightnight_bypass');
-	} catch(e) {}
+	} catch(ignore) {}
 
 	if (m >= b || m <= e) {
 		console.log('NightNight activated')
@@ -70,9 +78,9 @@ window.nightnightHide = function() {
 
 		// Inject DIV
 		var wrapper = document.createElement('div');
-		wrapper.innerHTML = '<div class="nightnight"><div>It&rsquo;s late&hellip;</div><div> Nothing we can offer you is more important than your sleep.</div> <div> Sleep well, sweet dreams, and we will catch you in the morning.</div> <div class="nightnight-timing">This site will wake up at ' + 
-			time + 
-			'</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">I&rsquo;ll sleep later, I really need to use this site right now &rightarrow;</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="https://code.nightnight.xn--q9jyb4c/static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
+		wrapper.innerHTML = '<div class="nightnight"><div>It&rsquo;s late&hellip;</div><div> Nothing we can offer you is more important than your sleep.</div> <div> Sleep well, sweet dreams, and we will catch you in the morning.</div> <div class="nightnight-timing">This site will wake up at ' +
+			time +
+			'</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">I&rsquo;ll sleep later, I really need to use this site right now &rightarrow;</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="' + scriptOrigin + 'static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
 		document.body.appendChild(wrapper);
 	}
 })();
