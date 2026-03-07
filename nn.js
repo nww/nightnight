@@ -77,6 +77,34 @@
 			wakeup: "\u0938\u093e\u0907\u091f \u091c\u093e\u0917\u0928\u0947 \u0915\u093e \u0938\u092e\u092f: ",
 			skip: "\u092e\u0948\u0902 \u092c\u093e\u0926 \u092e\u0947\u0902 \u0938\u094b\u090a\u0901\u0917\u093e, \u092e\u0941\u091d\u0947 \u0905\u092d\u0940 \u092f\u0939 \u0938\u093e\u0907\u091f \u0926\u0947\u0916\u0928\u0940 \u0939\u0948 \u2192"
 		},
+		sv: {
+			late: "Det \u00e4r sent\u2026",
+			important: "Inget vi kan erbjuda dig \u00e4r viktigare \u00e4n din s\u00f6mn.",
+			dreams: "Sov gott, s\u00f6ta dr\u00f6mmar, vi ses imorgon bitti.",
+			wakeup: "Den h\u00e4r sidan vaknar klockan ",
+			skip: "Jag sover senare, jag m\u00e5ste anv\u00e4nda sidan nu \u2192"
+		},
+		fi: {
+			late: "On my\u00f6h\u00e4ist\u00e4\u2026",
+			important: "Mik\u00e4\u00e4n mit\u00e4 voimme tarjota sinulle ei ole t\u00e4rke\u00e4mp\u00e4\u00e4 kuin unesi.",
+			dreams: "Nuku hyvin, kauniita unia, n\u00e4hd\u00e4\u00e4n aamulla.",
+			wakeup: "T\u00e4m\u00e4 sivusto her\u00e4\u00e4 kello ",
+			skip: "Nukun my\u00f6hemmin, tarvitsen t\u00e4t\u00e4 sivustoa nyt \u2192"
+		},
+		no: {
+			late: "Det er sent\u2026",
+			important: "Ingenting vi kan tilby deg er viktigere enn s\u00f8vnen din.",
+			dreams: "Sov godt, s\u00f8te dr\u00f8mmer, vi ses i morgen tidlig.",
+			wakeup: "Denne siden v\u00e5kner klokken ",
+			skip: "Jeg sover senere, jeg m\u00e5 bruke denne siden n\u00e5 \u2192"
+		},
+		nl: {
+			late: "Het is laat\u2026",
+			important: "Niets dat wij je kunnen bieden is belangrijker dan je slaap.",
+			dreams: "Slaap lekker, droom zacht, tot morgenochtend.",
+			wakeup: "Deze site wordt wakker om ",
+			skip: "Ik slaap later wel, ik moet deze site nu gebruiken \u2192"
+		},
 		ar: {
 			late: "\u0627\u0644\u0648\u0642\u062a \u0645\u062a\u0623\u062e\u0631\u2026",
 			important: "\u0644\u0627 \u0634\u064a\u0621 \u064a\u0645\u0643\u0646\u0646\u0627 \u062a\u0642\u062f\u064a\u0645\u0647 \u0644\u0643 \u0623\u0647\u0645 \u0645\u0646 \u0646\u0648\u0645\u0643.",

@@ -13,7 +13,7 @@ For more information contact → hello@mmsz.co
 
 # Product Roadmap 
 
-1. Multiple language support (Completed — 10 languages with auto-detection)
+1. Multiple language support (Completed — 14 languages with auto-detection)
 2. Fade colors through sunset, then to black
 3. Explore options for individual sleep preferences and shift workers
 4. Mobile support (Completed)
@@ -57,7 +57,7 @@ If you'd like you can adjust the times of the quick install for wake and sleep f
 
 #### Language
 
-night night automatically detects the visitor's browser language and displays the sleep overlay in their language. Supported languages: English, Spanish, French, German, Portuguese, Japanese, Chinese (Simplified), Korean, Hindi, and Arabic (with RTL support).
+night night automatically detects the visitor's browser language and displays the sleep overlay in their language. Supported languages: English, Spanish, French, German, Portuguese, Japanese, Chinese (Simplified), Korean, Hindi, Swedish, Finnish, Norwegian, Dutch, and Arabic (with RTL support).
 
 If you'd like to override the auto-detection and force a specific language, add `&lang=` with a language code.
 
@@ -65,7 +65,7 @@ If you'd like to override the auto-detection and force a specific language, add 
 <script async src="https://code.nightnight.xn--q9jyb4c/nn.js?sleep=2200&wake=0600&lang=ja"></script>
 ```
 
-Supported language codes: `en`, `es`, `fr`, `de`, `pt`, `ja`, `zh`, `ko`, `hi`, `ar`
+Supported language codes: `en`, `es`, `fr`, `de`, `pt`, `ja`, `zh`, `ko`, `hi`, `sv`, `fi`, `no`, `nl`, `ar`
 
 # About
 
