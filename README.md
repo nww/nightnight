@@ -55,6 +55,14 @@ If you'd like you can adjust the times of the quick install for wake and sleep f
 <script async src="https://code.nightnight.xn--q9jyb4c/nn.js?sleep=2300&wake=0630"></script>
 ```
 
+#### Time Format
+
+By default, the wake time is displayed in 12-hour format (e.g. `6:00 AM`). To use 24-hour format instead, add `&timeFormat=24`.
+
+```
+<script async src="https://code.nightnight.xn--q9jyb4c/nn.js?sleep=2200&wake=0600&timeFormat=24"></script>
+```
+
 #### Language
 
 night night automatically detects the visitor's browser language and displays the sleep overlay in their language. Supported languages: English, Spanish, French, German, Portuguese, Japanese, Chinese (Simplified), Korean, Hindi, Swedish, Finnish, Norwegian, Dutch, and Arabic (with RTL support).

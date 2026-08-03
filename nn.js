@@ -9,6 +9,7 @@
 	var bm = parseInt(sleep.substring(2), 10) % 60;
 	var eh = parseInt(wake.substring(0,2), 10) % 24;
 	var em = parseInt(wake.substring(2), 10) % 60;
+	var timeFormat = params.get('timeFormat') || 12;
 
 	var scriptOrigin = scriptSrc.substring(0, scriptSrc.lastIndexOf('/') + 1);
 
@@ -146,8 +147,6 @@
 	var d = new Date();
 	var m = d.getHours() * 60 + d.getMinutes();
 
-	var use12HourClock = true;
-
 	var b = bh * 60 + bm;
 	var e = eh * 60 + em;
 
@@ -182,17 +181,17 @@
 
 		// Format time
 		var time = ''
-		if (use12HourClock) {
+		if (timeFormat == 24) {
+			time = ("0"+eh).slice(-2) + ":" + ("0"+em).slice(-2)
+    } else {
 			var suffix = eh < 12 ? "AM" : "PM"
 			time = (eh % 13) + ":" + ("0"+em).slice(-2) + " " + suffix;
-		} else {
-			time = ("0"+eh).slice(-2) + ":" + ("0"+em).slice(-2)
 		}
 
 		// Inject DIV
 		var wrapper = document.createElement('div');
 		if (isRTL) wrapper.setAttribute('dir', 'rtl');
-		wrapper.innerHTML = '<div class="nightnight"><div>' + t.late + '</div><div> ' + t.important + '</div> <div> ' + t.dreams + '</div> <div class="nightnight-timing">' + t.wakeup + time + '</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">' + t.skip + '</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="' + scriptOrigin + 'static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
+		wrapper.innerHTML = '<div class="nightnight"><div>' + t.late + '</div><div> ' + t.important + '</div> <div> ' + t.dreams + '</div> <div class="nightnight-timing">' + t.wakeup + time + '.' + '</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">' + t.skip + '</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="' + scriptOrigin + 'static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
 		document.body.appendChild(wrapper);
 	}
 })();
