@@ -147,6 +147,21 @@
 			banners[i].style.display = 'none';
 		}
 
+		// Tear the wrapper down too: while it is showing as a popover it lives in
+		// the top layer, where it would keep swallowing clicks meant for the site.
+		var wrappers = document.getElementsByClassName('nightnight-wrapper');
+		for (var j = wrappers.length - 1; j >= 0; j--) {
+			var w = wrappers[j];
+			try {
+				if (w.hasAttribute('popover') && w.hidePopover) {
+					w.hidePopover();
+				}
+			} catch(ignore) {}
+			if (w.parentNode) {
+				w.parentNode.removeChild(w);
+			}
+		}
+
 		try {
 			var now = new Date();
 			var wakeTime = new Date(now);
@@ -182,7 +197,7 @@
 		console.log('NightNight activated')
 
 		// Inject CSS
-		var css = '.nightnight {background: #000; font-family: Arial, sans-serif; color: #fff; font-size: 12px; padding: 10%; position: fixed; margin: 0; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; box-sizing: border-box; } .nightnight-skip a {padding: 10px 0; } .nightnight a:link {color: #555; } .nightnight a:visited {color: #555; } .nightnight a:hover {color: #FFF; } .nightnight-timing {font-size: 15px; font-weight: 900; margin-top: 20px; } .nightnight-skip {font-style: italic; font-size: 14px; margin-top: 40px; } .nightnight-credits {position: fixed; bottom: 20px; right: 20px; margin-top: 40px; font-size:9px; } [dir="rtl"] .nightnight {text-align: right; } [dir="rtl"] .nightnight-credits {right: auto; left: 20px; }';
+		var css = '.nightnight-wrapper {position: fixed; inset: auto; margin: 0; padding: 0; border: 0; width: 0; height: 0; max-width: none; max-height: none; background: none; overflow: visible; z-index: 2147483647; } .nightnight {background: #000; font-family: Arial, sans-serif; color: #fff; font-size: 12px; padding: 10%; position: fixed; margin: 0; top: 0; left: 0; width: 100%; height: 100%; z-index: 2147483647; box-sizing: border-box; } .nightnight-skip a {padding: 10px 0; } .nightnight a:link {color: #555; } .nightnight a:visited {color: #555; } .nightnight a:hover {color: #FFF; } .nightnight-timing {font-size: 15px; font-weight: 900; margin-top: 20px; } .nightnight-skip {font-style: italic; font-size: 14px; margin-top: 40px; } .nightnight-credits {position: fixed; bottom: 20px; right: 20px; margin-top: 40px; font-size:9px; } [dir="rtl"] .nightnight {text-align: right; } [dir="rtl"] .nightnight-credits {right: auto; left: 20px; }';
 		var head = document.head || document.getElementsByTagName('head')[0];
 		var style = document.createElement('style');
 		style.type = 'text/css';
@@ -204,8 +219,23 @@
 
 		// Inject DIV
 		var wrapper = document.createElement('div');
+		wrapper.className = 'nightnight-wrapper';
 		if (isRTL) wrapper.setAttribute('dir', 'rtl');
-		wrapper.innerHTML = '<div class="nightnight"><div>' + t.late + '</div><div> ' + t.important + '</div> <div> ' + t.dreams + '</div> <div class="nightnight-timing">' + t.wakeup + time + t.end + '</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">' + t.skip + '</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="' + scriptOrigin + 'static/night_night_everyone_white.png" alt="night night" height="32" width="161"></a></div> </div>';
+		wrapper.innerHTML = '<div class="nightnight"><div>' + t.late + '</div><div> ' + t.important + '</div> <div> ' + t.dreams + '</div> <div class="nightnight-timing">' + t.wakeup + time + t.end + '</div> <div class="nightnight-skip"> <a href="javascript:nightnightHide()">' + t.skip + '</a> </div> <div class="nightnight-credits"> <a href="https://www.nightnight.xn--q9jyb4c"><img src="' + scriptOrigin + 'static/night_night_everyone_white_2x.png" alt="night night" height="24" width="161"></a></div> </div>';
 		document.body.appendChild(wrapper);
+
+		// Promote into the top layer, which renders above every z-index on the host
+		// page — including late-injecting widgets that would otherwise win the tie
+		// at the same z-index. Only attach the attribute once we know the API
+		// exists: a browser that honours `popover` keeps the element hidden until
+		// it is shown, so a half-applied popover would leave the site awake.
+		if (typeof wrapper.showPopover === 'function') {
+			try {
+				wrapper.setAttribute('popover', 'manual');
+				wrapper.showPopover();
+			} catch(ignore) {
+				wrapper.removeAttribute('popover');
+			}
+		}
 	}
 })();
